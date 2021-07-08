@@ -3,8 +3,7 @@
 clear
 
 echo "[login menu v2.1i]"
-echo 
-"masukkan nama anda:"
+echo "masukkan nama anda:"
 read nama
 clear
 echo  "hai $nama "
