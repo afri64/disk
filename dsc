@@ -1,7 +1,8 @@
 #!/bin/bash
 
 clear
-echo masukkan nama anda
+echo "masukkan nama anda"
+echo "[login menu v2.1i]"
 read nama
 clear
 echo  " _______________________________"
@@ -13,11 +14,11 @@ echo  "[_____                          ]"
 echo  "[]]]]]                          ]"
 echo  "[_____                          ]"
 echo  "[]]]]]_________________         ]"
-echo  "       Disk Tools v2.0i\________]"
+echo  "       Disk Tools v2.1i\________]"
 echo  "  "
 echo  "  "
 echo  "  "
-echo "[info]:untuk melakukan pemmbersihan anda membutuhkan akses root]"
+echo "[info]:untuk melakukan pembersihan anda membutuhkan akses root]"
 echo "  "
 echo "[==[pilih salah satu]==]"
 echo "by : ARC_dev"
@@ -31,7 +32,7 @@ echo "[5] cek penyimpanan (dengan addres)"
 
 
 
-echo "[H] help menu]   [update]"
+echo "[H][help menu]   []   [update]"
 echo "::::::::::::::::::::::::::::::::::"
 read -p "silahkan pilih [1-5]: " pil;
 case $pil in
@@ -105,11 +106,15 @@ clear
 update)
 
       echo "updating..."
+      clear
       echo "deleting old installation..."
+      clear
       cd 
       rm -r disk
+      clear
       echo "downloading new file..."
       git clone https://github.com/afri64/disk
+      clear
       echo "installing new dsc..."
       cd
       cd disk
