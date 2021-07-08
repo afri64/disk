@@ -5,6 +5,7 @@ clear
 echo "[login menu v2.1i]"
 echo "masukkan nama anda:"
 read nama
+echo "last login : $nama"
 clear
 echo  "hai $nama "
 echo  " _______________________________"
