@@ -29,10 +29,9 @@ echo "[3] bersihkan file secara otomatis";
 echo "[4] cek detail penyimpanan";
 echo "[5] cek penyimpanan (dengan addres)"
 
-echo "[update]"
 
 
-echo "[H] help menu "
+echo "[H] help menu]   [update]"
 echo "::::::::::::::::::::::::::::::::::"
 read -p "silahkan pilih [1-5]: " pil;
 case $pil in
@@ -104,6 +103,7 @@ clear
 ;;
 
 update)
+
       echo "updating..."
       echo "deleting old installation..."
       cd 
@@ -114,6 +114,8 @@ update)
       cd
       cd disk
       bash dsc
+
+;;
 
 
 t1)
