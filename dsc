@@ -5,7 +5,6 @@ clear
 echo "[login menu v2.1i]"
 echo "masukkan nama anda:"
 read nama
-echo "last login : $nama"
 clear
 echo  "hai $nama "
 echo  " _______________________________"
@@ -17,7 +16,7 @@ echo  "[_____                          ]"
 echo  "[]]]]]                          ]"
 echo  "[_____                          ]"
 echo  "[]]]]]_________________         ]"
-echo  "       Disk Tools v2.1i\________]"
+echo  "       Disk Tools v2.3i\________]"
 echo  "  "
 echo  "  "
 echo  "  "
@@ -145,10 +144,13 @@ clear
 
 02)
 clear
-      echo "selamat anda kena prank:V"
-      echo "kamera nya ilang:V lupa letakkin dimana"
-      echo "awokawokowkwokwokwowk kena prank:V"
-      echo $nama ~kun jangan marah dong:V
+      echo "itu waifu gua :V"
+
+      echo " "
+      echo "waifu lu siapa?:V"
+      read waifu
+      cls
+      echo "cieee ciieee:V $waifu"
 ;;
 
 *)
