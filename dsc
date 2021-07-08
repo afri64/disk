@@ -2,21 +2,21 @@
 
 clear
 
-echo "[login menu v2.1i]"
+echo "[login menu v2.4i]"
 echo "masukkan nama anda:"
 read nama
 clear
 echo  "hai $nama "
 echo  " _______________________________"
 echo  "[_____                          ]"
-echo  "[]]]]]                          ]"
+echo  "[____]                          ]"
 echo  "[_____                          ]"
-echo  "[]]]]]                          ]"
+echo  "[____]                          ]"
 echo  "[_____                          ]"
-echo  "[]]]]]                          ]"
+echo  "[____]                          ]"
 echo  "[_____                          ]"
-echo  "[]]]]]_________________         ]"
-echo  "       Disk Tools v2.3i\________]"
+echo  "[____]_________________         ]"
+echo  "       Disk Tools v2.4i\________]"
 echo  "  "
 echo  "  "
 echo  "  "
@@ -149,7 +149,7 @@ clear
       echo " "
       echo "waifu lu siapa?:V"
       read waifu
-      cls
+      clear
       echo "cieee ciieee:V $waifu"
 ;;
 
