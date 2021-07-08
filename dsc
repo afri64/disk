@@ -13,7 +13,7 @@ echo  "[_____                          ]"
 echo  "[]]]]]                          ]"
 echo  "[_____                          ]"
 echo  "[]]]]]_________________         ]"
-echo  "       Disk Tools      \________]"
+echo  "       Disk Tools v2.0i\________]"
 echo  "  "
 echo  "  "
 echo  "  "
@@ -28,6 +28,8 @@ echo "[2] bersihkan file download [beberapa file berformat .deb mungkin akan dih
 echo "[3] bersihkan file secara otomatis";
 echo "[4] cek detail penyimpanan";
 echo "[5] cek penyimpanan (dengan addres)"
+
+echo "[update]"
 
 
 echo "[H] help menu "
@@ -100,6 +102,19 @@ clear
       echo [ketik bash dsc lalu klik enter]
       echo [jika sudah masukan code yang sudah disediakan di atas]
 ;;
+
+update)
+      echo "updating..."
+      echo "deleting old installation..."
+      cd 
+      rm -r disk
+      echo "downloading new file..."
+      git clone https://github.com/afri64/disk
+      echo "installing new dsc..."
+      cd
+      cd disk
+      bash dsc
+
 
 t1)
 clear
