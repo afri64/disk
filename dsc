@@ -2,7 +2,7 @@
 
 clear
 
-echo "[login menu v2.4i]"
+echo "[login menu v2.5i]"
 echo "masukkan nama anda:"
 read nama
 clear
@@ -16,7 +16,7 @@ echo  "[_____                          ]"
 echo  "[____]                          ]"
 echo  "[_____                          ]"
 echo  "[____]_________________         ]"
-echo  "       Disk Tools v2.4i\________]"
+echo  "       Disk Tools v2.5i\________]"
 echo  "  "
 echo  "  "
 echo  "  "
@@ -92,6 +92,7 @@ case $pil in
     echo "[__________________________________]"
     date
     echo "selesai"
+    echo "terimakasih telah menggunakan tools ini $nama"
 ;;
 H)
 clear
